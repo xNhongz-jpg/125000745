@@ -16,6 +16,7 @@
     --mau-den: #000000;
     --bong: rgba(0, 0, 0, 0.05);
     --bong-nut: rgba(0, 0, 0, 0.1);
+    --nen-cong-tac: rgba(255, 255, 255, 0.15);
 }
 
 body:has(#toi:checked) {
@@ -80,7 +81,7 @@ body.nen {
     align-items: center;
     gap: 8px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.15);
+    background: var(--nen-cong-tac);
     padding: 6px 12px;
     border-radius: 20px;
 }
