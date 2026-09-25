@@ -107,11 +107,11 @@ body.nen {
     transition: left 0.3s;
 }
 
-.cong-tac input:checked + .truot {
+.cong-tac input:checked+.truot {
     background: var(--mau-vang);
 }
 
-.cong-tac input:checked + .truot::before {
+.cong-tac input:checked+.truot::before {
     left: 22px;
 }
 
