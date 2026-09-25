@@ -35,7 +35,7 @@ body.nen {
     font-family: Arial, sans-serif;
     background: var(--nen);
     color: var(--chu);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.2s ease, color 0.3s ease;
 }
 
 .header {
